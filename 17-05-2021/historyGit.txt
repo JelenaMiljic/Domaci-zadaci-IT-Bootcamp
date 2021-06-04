@@ -1,0 +1,20 @@
+  188  cd desktop
+  189  cd..
+  190  cd ..
+  191  git clone https://github.com/JelenaMiljic/bootcampVezbanje.git
+  192  cd bootcampVezbanje
+  193  mkdir JelenaMiljic
+  194  cd JelenaMiljic
+  195  touch licnipodaci.txt
+  196  nano licnipodaci.txt
+  197  cd ..
+  198  nano vezba1.txt
+  199  git init
+  200  git config --global user.name "JelenaMiljic"
+  201  git config --global user.mail "jeca.vasic@yahoo.com"
+  202  git add vezba1.txt
+  203  git commit -m "dodavanje fajla vezba1.txt"
+  204  git add JelenaMiljic/
+  205  git commit -m "dodavanje foldera"
+  206  git push https://github.com/JelenaMiljic/bootcampVezbanje.git
+  207  history > historyGit.txt
